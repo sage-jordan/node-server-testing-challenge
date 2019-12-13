@@ -2,10 +2,10 @@
   "name": "node-server-testing",
   "version": "1.0.0",
   "description": "Node Server Testing Challenge",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js",
-    "test": "jest --watch"
+    "server": "nodemon index.js",
+    "test": "jest --watch --verbose"
   },
   "jest": {
     "testEnvironment": "node"
